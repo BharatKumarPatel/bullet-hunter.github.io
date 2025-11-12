@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bullet Hunter Giveaway Page</title>
+  <style>
+    /* Load the custom newspaper font */
+    @font-face {
+      font-family: 'OldNewspaperTypes';
+      src: url('OldNewspaperTypes.ttf') format('truetype');
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #ab2330;       /* Background color */
+      color: #ffffff;                 /* Main text color */
+      font-family: 'OldNewspaperTypes', serif;
+    }
+    /* Fixed Email Link at top-left */
+    .email {
+      position: fixed;
+      top: 10px;
+      left: 10px;
+      z-index: 1000;
+    }
+    .email a {
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+    /* Hero Section */
+    .hero {
+      position: relative;
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+    .hero-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      font-size: 4rem;
+      font-weight: bold;
+      color: #ffd700;       /* Highlighted text color */
+      line-height: 1.2;
+      z-index: 1;
+    }
+    .hero-text span {
+      display: block;
+    }
+    .hero-image {
+      position: relative;
+      z-index: 2;
+      max-width: 80%;
+      height: auto;
+    }
+    /* Image Gallery */
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      padding: 2rem;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border: 4px solid #000000;  /* Black frame */
+      display: block;
+    }
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 1rem;
+      border-top: 4px solid #000000;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- Fixed Email Link -->
+  <header>
+    <div class="email">
+      <a href="mailto:ibbchoudhary@gmail.com?body=mainay%20dey%20di%20iss%20type%20mai%20tum%20kuhd%20ek%20script%20likhna">
+        ibbchoudhary@gmail.com
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section with Bike Image and Overlay Text -->
+    <section class="hero">
+      <div class="hero-text">
+        <span>I WANT THIS</span>
+        <span>I WANT THIS</span>
+      </div>
+      <img src="bullet_hunter.png" alt="Bullet Hunter Bike" class="hero-image">
+    </section>
+
+    <!-- Responsive Image Gallery -->
+    <section class="gallery">
+      <img src="gallery1.png" alt="Memory Image 1">
+      <img src="gallery2.png" alt="Memory Image 2">
+      <img src="gallery3.png" alt="Memory Image 3">
+      <img src="gallery4.png" alt="Memory Image 4">
+      <img src="gallery5.png" alt="Memory Image 5">
+      <img src="gallery6.png" alt="Memory Image 6">
+      <img src="gallery7.png" alt="Memory Image 7">
+    </section>
+  </main>
+
+  <!-- Footer with Love Message -->
+  <footer>
+    <p>Made with love for Bullet Hunter fans.</p>
+  </footer>
+</body>
+</html>
